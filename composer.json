@@ -1,0 +1,49 @@
+{
+    "name": "ucrm-plugins/sdk-rest",
+    "description": "A REST library for the UCRM Plugin SDK.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryan Spaeth",
+            "email": "rspaeth@mvqn.net"
+        }
+    ],
+    "require": {
+        "php": "~7.3",
+
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-fileinfo": "*",
+
+        "mvqn/data": "dev-master",
+        "mvqn/dynamics": "dev-master",
+        "mvqn/rest": "dev-master",
+
+
+        "nette/php-generator": "~3.2",
+
+        "vlucas/phpdotenv": "~2.5",
+        "symfony/yaml": "^4.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9"
+    },
+    "autoload": {
+        "psr-4": {
+            "UCRM\\REST\\": "./src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "UCRM\\REST\\": "./tests/"
+        }
+    },
+    "scripts": {
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        { "name": "sdk", "type": "path", "options": { "symlink": false }, "url": "../*" }
+    ]
+}
