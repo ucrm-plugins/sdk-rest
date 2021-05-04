@@ -11,6 +11,9 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "repositories": [
+        { "name": "sdk", "type": "path", "url": "../*" }
+    ],
     "require": {
         "php": "~7.3",
 
