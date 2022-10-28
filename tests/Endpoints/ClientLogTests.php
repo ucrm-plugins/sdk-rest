@@ -9,7 +9,7 @@ use MVQN\Collections\Collection;
  * Class ClientLogTests
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  *
  */
 class ClientLogTests extends EnpointTestCase
@@ -46,7 +46,7 @@ class ClientLogTests extends EnpointTestCase
             ->setClient($client)
             ->setMessage("This is a test from the API.")
             //->setUserId(1)
-            ->setUser(User::getByEmail("rspaeth@mvqn.net"))
+            ->setUser(User::getByEmail("rspaeth@spaethtech.com"))
             ->setCreatedDate(new \DateTime("2018-01-01T00:00:00-0800"));
 
         /** @var ClientLog $insertedClientLog */
@@ -149,7 +149,7 @@ class ClientLogTests extends EnpointTestCase
         $clientLog = ClientLog::getByClientId(1)->first();
 
         $clientLog
-            ->setUserByEmail("rspaeth@mvqn.net");
+            ->setUserByEmail("rspaeth@spaethtech.com");
 
         /** @var ClientLog $updatedClientLog */
         $updatedClientLog = $clientLog->update();

@@ -19,8 +19,8 @@ use MVQN\REST\Annotations\EndpointAnnotation as Endpoint;
  * @method string|null getSymbol()
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
- * @copyright Copyright (c) 2020 - Spaeth Technologies, Inc.
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
+ * @copyright Copyright (c) 2020 - Spaeth Technologies Inc.
  * @final
  */
 final class Currency extends EndpointObject

@@ -11,7 +11,7 @@ use UCRM\Common\Log;
  *
  * Use an immediately invoked function here to prevent pollution of the global namespace.
  *
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  */
 (function()
 {

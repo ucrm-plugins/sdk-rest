@@ -13,7 +13,7 @@ use UCRM\REST\Endpoints\Lookups\EmailAttachment;
  * Trait EmailHelper
  *
  * @package UCRM\REST\Endpoints\Helpers
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  */
 trait EmailHelper
 {

@@ -14,7 +14,7 @@ use UCRM\REST\Endpoints\Helpers\PaymentPlanHelper;
  * Class PaymentPlan
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  * @final
  *
  * @Endpoint { "get": "/payment-plans", "getById": "/payment-plans/:id" }

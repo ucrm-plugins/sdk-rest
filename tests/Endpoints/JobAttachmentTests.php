@@ -9,7 +9,7 @@ use MVQN\Collections\Collection;
  * Class JobAttachmentTests
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  *
  */
 class JobAttachmentTests extends EnpointTestCase

@@ -9,7 +9,7 @@ use MVQN\Collections\Collection;
  * Class JobTests
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  *
  */
 class JobTests extends EnpointTestCase
@@ -200,7 +200,7 @@ class JobTests extends EnpointTestCase
 
         $newJob = clone $job;
         $newJob
-            ->setAssignedUserByEmail("rspaeth@mvqn.net")
+            ->setAssignedUserByEmail("rspaeth@spaethtech.com")
             ->setDate(new \DateTime());
 
         /** @var Job $updatedJob */
@@ -287,7 +287,7 @@ class JobTests extends EnpointTestCase
         $this->assertNotNull($job);
         $job
             ->setDate(new \DateTime())
-            ->setAssignedUserByEmail("rspaeth@mvqn.net");
+            ->setAssignedUserByEmail("rspaeth@spaethtech.com");
 
         /** @var Job $updatedJob */
         $updatedJob = $job->update();

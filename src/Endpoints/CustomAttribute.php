@@ -12,7 +12,7 @@ use MVQN\REST\Annotations\PatchAnnotation as Patch;
  * Class CustomAttribute
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  * @final
  *
  * @Endpoint { "get": "/custom-attributes", "getById": "/custom-attributes/:id" }

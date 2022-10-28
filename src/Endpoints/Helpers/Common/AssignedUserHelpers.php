@@ -9,7 +9,7 @@ use UCRM\REST\Endpoints\User;
  * Trait AssignedUserHelpers
  *
  * @package UCRM\REST\Endpoints\Helpers\Common
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  */
 trait AssignedUserHelpers
 {

@@ -72,7 +72,7 @@ Example: `Ryan Spaeth`
 
 The email of the sender (will also be used as the 'Reply To' name).
 
-Example: `rspaeth@mvqn.net`
+Example: `rspaeth@spaethtech.com`
 
 **Use HTML?**
 
@@ -93,7 +93,7 @@ to send.*
 
 A comma separated list of email addresses to which Client notifications should be sent.
 
-Example: `rspaeth@mvqn.net`
+Example: `rspaeth@spaethtech.com`
 
 
 ## Features
@@ -137,7 +137,7 @@ Another plugin module used to simplify access to the UCRM REST API.
 Bugs and feature request are tracked on [Github](https://github.com/mvqn-ucrm/plugin-notifier/issues)
 
 ### Author
-Ryan Spaeth <[rspaeth@mvqn.net](mailto:rspaeth@mvqn.net)>
+Ryan Spaeth <[rspaeth@spaethtech.com](mailto:rspaeth@spaethtech.com)>
 
 ### License
 This module is licensed under the MIT License - see the `LICENSE` file for details.

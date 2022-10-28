@@ -10,7 +10,7 @@ use UCRM\REST\Endpoints\Job;
  * Trait AssignedJobHelpers
  *
  * @package UCRM\REST\Endpoints\Helpers\Common
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  */
 trait AssignedJobHelpers
 {

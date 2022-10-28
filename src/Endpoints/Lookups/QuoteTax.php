@@ -10,7 +10,7 @@ use MVQN\REST\Annotations\PatchAnnotation as Patch;
  * Class QuoteTax
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  * @final
  *
  * @method string|null getName()

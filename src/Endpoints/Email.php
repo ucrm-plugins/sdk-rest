@@ -25,8 +25,8 @@ use UCRM\REST\Endpoints\Lookups\EmailAttachment;
  * @see    bool  enqueue(int $organizationId)
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
- * @copyright Copyright (c) 2020 - Spaeth Technologies, Inc.
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
+ * @copyright Copyright (c) 2020 - Spaeth Technologies Inc.
  * @final
  */
 final class Email extends EndpointObject

@@ -18,7 +18,7 @@ use MVQN\REST\Annotations\PatchRequiredAnnotation as PatchRequired;
  * Class TicketComment
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  * @final
  *
  * @Endpoint { "get": "/ticketing/tickets/comments", "getById": "/ticketing/tickets/comments/:id" }

@@ -9,7 +9,7 @@ use MVQN\Collections\Collection;
  * Class JobCommentTests
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  *
  */
 class JobCommentTests extends EnpointTestCase
@@ -114,7 +114,7 @@ class JobCommentTests extends EnpointTestCase
     public function testJobGetByUserId()
     {
         /** @var User $user */
-        $user = User::getByEmail("rspaeth@mvqn.net");
+        $user = User::getByEmail("rspaeth@spaethtech.com");
 
         /** @var JobComment $comment */
         $comment = JobComment::getByUserId($user->getId())->last();

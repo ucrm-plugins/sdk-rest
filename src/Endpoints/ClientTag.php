@@ -15,7 +15,7 @@ use UCRM\REST\Endpoints\Helpers\ClientTagHelper;
  * Class ClientTag
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  * @final
  *
  * @Endpoint { "get": "/client-tags", "getById": "/client-tags/:id" }

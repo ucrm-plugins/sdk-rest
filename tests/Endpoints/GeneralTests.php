@@ -11,7 +11,7 @@ use UCRM\REST\Endpoints\Version;
  * Class GeneralTests
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  */
 class GeneralTests extends EndpointTestCase
 {

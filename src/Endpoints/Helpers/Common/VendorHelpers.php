@@ -9,7 +9,7 @@ use UCRM\REST\Endpoints\Vendor;
  * Trait VendorHelpers
  *
  * @package UCRM\REST\Endpoints\Helpers\Common
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  */
 trait VendorHelpers
 {

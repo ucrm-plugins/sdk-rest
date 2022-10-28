@@ -17,7 +17,7 @@ use UCRM\REST\Endpoints\Version;
  * Class EmailTests
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  */
 class EmailTests extends EndpointTestCase
 {
@@ -29,7 +29,7 @@ class EmailTests extends EndpointTestCase
     public function testEmailEnqueue()
     {
         $email = new Email();
-        $email->setTo("rspaeth@mvqn.net");
+        $email->setTo("rspaeth@spaethtech.com");
         $email->setSubject("Test Email API");
         $email->setBody("<p>This is a text email.</p>");
         $email->setClientId(1);
@@ -42,7 +42,7 @@ class EmailTests extends EndpointTestCase
     public function testEmailEnqueueWithAttachment()
     {
         $email = new Email();
-        $email->setTo("rspaeth@mvqn.net");
+        $email->setTo("rspaeth@spaethtech.com");
         $email->setSubject("Test Email API");
         $email->setBody("<p>This is a text email.</p>");
         $email->setClientId(1);

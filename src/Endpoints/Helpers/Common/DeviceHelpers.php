@@ -9,7 +9,7 @@ use UCRM\REST\Endpoints\Device;
  * Trait DeviceHelpers
  *
  * @package UCRM\REST\Endpoints\Helpers\Common
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  */
 trait DeviceHelpers
 {

@@ -7,7 +7,7 @@ namespace UCRM\REST\Endpoints\Helpers;
  * Trait ProductHelper
  *
  * @package UCRM\REST\Endpoints\Helpers
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  */
 trait ProductHelper
 {

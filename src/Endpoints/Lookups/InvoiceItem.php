@@ -12,7 +12,7 @@ use UCRM\REST\Endpoints\Helpers\InvoiceItemHelper;
  * Class InvoiceItem
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  * @final
  *
  * @method int|null getId()

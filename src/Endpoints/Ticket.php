@@ -19,7 +19,7 @@ use UCRM\REST\Endpoints\Lookups\TicketActivityComment;
  * Class Ticket
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  * @final
  *
  * @Endpoint { "get": "/ticketing/tickets", "getById": "/ticketing/tickets/:id" }

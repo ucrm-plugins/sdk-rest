@@ -16,8 +16,8 @@ use MVQN\REST\Annotations\ExcludeIdAnnotation as ExcludeId;
  * @method string|null getVersion()
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
- * @copyright Copyright (c) 2020 - Spaeth Technologies, Inc.
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
+ * @copyright Copyright (c) 2020 - Spaeth Technologies Inc.
  * @final
  */
 final class Version extends EndpointObject

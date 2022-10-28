@@ -13,7 +13,7 @@ use UCRM\REST\Endpoints\Helpers\UserHelper;
  * Class User
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  * @final
  *
  * @Endpoint { "get": "/users/admins", "getById": "/users/admins/:id" }

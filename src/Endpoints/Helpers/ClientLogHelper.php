@@ -10,7 +10,7 @@ use UCRM\REST\Endpoints\ClientLog;
  * Trait ClientLogHelper
  *
  * @package UCRM\REST\Endpoints\Helpers
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  */
 trait ClientLogHelper
 {

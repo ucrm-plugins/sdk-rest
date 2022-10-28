@@ -12,7 +12,7 @@ use MVQN\Collections\Collection;
  * Class TicketActivityStatusChange
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  * @final
  *
  * @method int|null getStatus()

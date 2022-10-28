@@ -10,7 +10,7 @@ use UCRM\REST\Endpoints\Helpers\EmailAttachmentHelper;
  * Class EmailAttachment
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  * @final
  *
  * @method string|null     getFile()

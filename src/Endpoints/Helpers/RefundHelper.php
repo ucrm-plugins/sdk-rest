@@ -10,7 +10,7 @@ use UCRM\REST\Endpoints\Refund;
  * Trait RefundHelper
  *
  * @package UCRM\REST\Endpoints\Helpers
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  */
 trait RefundHelper
 {

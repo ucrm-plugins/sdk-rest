@@ -18,7 +18,7 @@ use UCRM\REST\Endpoints\Lookups\ServicePlanPeriod;
  * Class ServicePlan
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  * @final
  *
  * @Endpoint { "get": "/service-plans", "getById": "/service-plans/:id" }

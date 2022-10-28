@@ -16,7 +16,7 @@ use UCRM\REST\Endpoints\Organization;
  * Trait ClientHelper
  *
  * @package UCRM\REST\Endpoints\Helpers
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  */
 trait ClientHelper
 {

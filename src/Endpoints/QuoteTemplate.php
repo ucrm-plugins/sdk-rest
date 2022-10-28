@@ -12,7 +12,7 @@ use UCRM\REST\Endpoints\Helpers\QuoteTemplateHelper;
  * Class QuoteTemplate
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  * @final
  *
  * @Endpoint { "get": "/quote-templates", "getById": "/quote-templates/:id" }

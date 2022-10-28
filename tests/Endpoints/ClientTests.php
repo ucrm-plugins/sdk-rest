@@ -471,7 +471,7 @@ class ClientTests extends EndpointTestCase
         $contact
             ->setClientId($client->getId())
             ->setName("Ryan Spaeth")
-            ->setEmail("rspaeth@mvqn.net");
+            ->setEmail("rspaeth@spaethtech.com");
 
         $updated = $client->addContact($contact);
         /** @var ClientContact $last */
@@ -514,7 +514,7 @@ class ClientTests extends EndpointTestCase
         $contact
             ->setClientId($client->getId())
             ->setName("Ryan Spaeth")
-            ->setEmail("rspaeth@mvqn.net");
+            ->setEmail("rspaeth@spaethtech.com");
 
         $updated = $client->addContact($contact);
         /** @var ClientContact $last */

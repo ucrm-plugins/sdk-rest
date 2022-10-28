@@ -10,7 +10,7 @@ use MVQN\REST\Annotations\EndpointAnnotation as Endpoint;
  * Class Site
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  * @final
  *
  * @Endpoint { "get": "/sites", "getById": "/sites/:id" }

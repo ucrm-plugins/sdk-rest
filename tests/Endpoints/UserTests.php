@@ -73,10 +73,10 @@ class UserTests extends \PHPUnit\Framework\TestCase
     public function testGetByEmail()
     {
         /** @var User $user */
-        $user = User::getByEmail("rspaeth@mvqn.net");
-        $this->assertEquals("rspaeth@mvqn.net", $user->getEmail());
+        $user = User::getByEmail("rspaeth@spaethtech.com");
+        $this->assertEquals("rspaeth@spaethtech.com", $user->getEmail());
 
-        echo ">>> User::getByEmail('rspaeth@mvqn.net')\n";
+        echo ">>> User::getByEmail('rspaeth@spaethtech.com')\n";
         echo $user."\n";
         echo "\n";
     }

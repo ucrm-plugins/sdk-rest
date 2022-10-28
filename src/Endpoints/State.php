@@ -18,8 +18,8 @@ use UCRM\REST\Endpoints\Helpers\StateHelper;
  * @method string|null getCode()
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
- * @copyright Copyright (c) 2020 - Spaeth Technologies, Inc.
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
+ * @copyright Copyright (c) 2020 - Spaeth Technologies Inc.
  * @final
  */
 final class State extends EndpointObject
@@ -42,4 +42,3 @@ final class State extends EndpointObject
     protected $code;
 
 }
-

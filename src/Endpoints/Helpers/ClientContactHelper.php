@@ -11,7 +11,7 @@ use UCRM\REST\Endpoints\Organization;
  * Trait ClientContactHelper
  *
  * @package UCRM\REST\Endpoints\Helpers
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  */
 trait ClientContactHelper
 {

@@ -23,7 +23,7 @@ use UCRM\REST\Endpoints\Lookups\TicketActivityStatusChange;
  * Class TicketActivity
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  * @final
  *
  * @Endpoint { "get": "/ticketing/tickets/activities", "getById": "/ticketing/tickets/activities/:id" }

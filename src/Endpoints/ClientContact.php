@@ -16,7 +16,7 @@ use UCRM\REST\Endpoints\Lookups\ClientContactType;
  * Class ClientContact
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  * @final
  *
  * @Endpoint { "get": "/clients/:clientId/contacts", "getById": "/clients/contacts/:id" }

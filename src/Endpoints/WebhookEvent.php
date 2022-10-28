@@ -12,7 +12,7 @@ use UCRM\REST\Endpoints\Helpers\WebhookEventHelper;
  * Class WebhookEvent
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  * @final
  *
  * @ExcludeId

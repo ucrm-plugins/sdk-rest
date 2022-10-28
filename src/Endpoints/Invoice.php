@@ -21,7 +21,7 @@ use UCRM\REST\Endpoints\Lookups\PaymentCover;
  * Class Invoice
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  * @final
  *
  * @Endpoint { "get": "/invoices" }

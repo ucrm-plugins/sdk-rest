@@ -12,7 +12,7 @@ use UCRM\REST\Endpoints\Helpers\InvoiceTemplateHelper;
  * Class InvoiceTemplate
  *
  * @package UCRM\REST\Endpoints
- * @author Ryan Spaeth <rspaeth@mvqn.net>
+ * @author Ryan Spaeth <rspaeth@spaethtech.com>
  * @final
  *
  * @Endpoint { "get": "/invoice-templates", "getById": "/invoice-templates/:id" }
