@@ -1,58 +1,58 @@
-image: php:7.3-fpm
-
-stages:
-    - build
-    - test
-
-variables:
-    REST_URL: $REST_URL
-    REST_KEY: $REST_KEY
-
-build:
-    stage: build
-
-    script:
-        # Install / Update image libraries.
-        - apt-get update -y
-        - apt-get install -y git unzip
-
-        # Install PHP Extension: zip
-        #- apt-get install -y libzip-dev
-        #- docker-php-ext-configure zip --with-libzip
-        #- docker-php-ext-install zip
-
-        # Install PHP Extension: pdo
-        #- docker-php-ext-install pdo
-
-        # Install PHP Extension: pdo_pgsql
-        #- apt-get install -y libpq-dev
-        #- docker-php-ext-configure pdo_pgsql --with-pgsql=/usr/local/pgsql
-        #- docker-php-ext-install pdo_pgsql pgsql
-
-        # Install PHP Extension: pdo_sqlite
-        #- docker-php-ext-install pdo_sqlite
-
-        #- apt-get install -y zlib1g-dev libicu-dev g++
-        #- docker-php-ext-configure intl
-        #- docker-php-ext-install intl
-
-        # Download and install Composer (composer.phar)
-        - curl -sS https://getcomposer.org/installer | php
-
-        # Install / Update project dependencies.
-        - php composer.phar update --no-interaction --no-ansi # --ignore-platform-reqs
-
-    artifacts:
-        paths:
-            - vendor
-
-
-General:
-    stage: test
-    script:
-        - ./vendor/bin/phpunit --testsuite General
-
-Email:
-    stage: test
-    script:
-        - ./vendor/bin/phpunit --testsuite Email
+#image: php:7.3-fpm
+#
+#stages:
+#    - build
+#    - test
+#
+#variables:
+#    REST_URL: $REST_URL
+#    REST_KEY: $REST_KEY
+#
+#build:
+#    stage: build
+#
+#    script:
+#        # Install / Update image libraries.
+#        - apt-get update -y
+#        - apt-get install -y git unzip
+#
+#        # Install PHP Extension: zip
+#        #- apt-get install -y libzip-dev
+#        #- docker-php-ext-configure zip --with-libzip
+#        #- docker-php-ext-install zip
+#
+#        # Install PHP Extension: pdo
+#        #- docker-php-ext-install pdo
+#
+#        # Install PHP Extension: pdo_pgsql
+#        #- apt-get install -y libpq-dev
+#        #- docker-php-ext-configure pdo_pgsql --with-pgsql=/usr/local/pgsql
+#        #- docker-php-ext-install pdo_pgsql pgsql
+#
+#        # Install PHP Extension: pdo_sqlite
+#        #- docker-php-ext-install pdo_sqlite
+#
+#        #- apt-get install -y zlib1g-dev libicu-dev g++
+#        #- docker-php-ext-configure intl
+#        #- docker-php-ext-install intl
+#
+#        # Download and install Composer (composer.phar)
+#        - curl -sS https://getcomposer.org/installer | php
+#
+#        # Install / Update project dependencies.
+#        - php composer.phar update --no-interaction --no-ansi # --ignore-platform-reqs
+#
+#    artifacts:
+#        paths:
+#            - vendor
+#
+#
+#General:
+#    stage: test
+#    script:
+#        - ./vendor/bin/phpunit --testsuite General
+#
+#Email:
+#    stage: test
+#    script:
+#        - ./vendor/bin/phpunit --testsuite Email
