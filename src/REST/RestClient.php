@@ -4,7 +4,7 @@ declare(strict_types=1);
 namespace SpaethTech\UCRM\SDK\REST;
 
 use GuzzleHttp\Client;
-use SpaethTech\UCRM\SDK\Common\Strings;
+use SpaethTech\UCRM\SDK\Support\Strings;
 use Psr\Http\Message\ResponseInterface;
 
 /**

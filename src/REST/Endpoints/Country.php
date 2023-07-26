@@ -9,7 +9,7 @@ namespace SpaethTech\UCRM\SDK\REST\Endpoints;
 
 //use UCRM\REST\Endpoints\Helpers\CountryHelper;
 use SpaethTech\UCRM\SDK\JSON\JsonObject;
-use SpaethTech\UCRM\SDK\REST\Attributes\RestEndpoint;
+use SpaethTech\UCRM\SDK\REST\Attributes\Endpoint;
 
 /**
  * Class Country
@@ -26,12 +26,9 @@ use SpaethTech\UCRM\SDK\REST\Attributes\RestEndpoint;
  * @copyright Copyright (c) 2020 - Spaeth Technologies Inc.
  * @final
  */
-#[RestEndpoint("GET", "/countries")]
-final class Country extends JsonObject  //extends EndpointObject
+final class Country extends EndpointObject
 {
-    //use JsonBasedProperties;
-
-    //use CountryHelper;
+    use CountryHelper;
 
     /**
      * @var string

@@ -20,7 +20,7 @@
         "nette/php-generator": "~3.2",
 
         "vlucas/phpdotenv": "~2.5",
-        "symfony/yaml": "^4.3"
+        "symfony/yaml": "^6.3"
     },
     "autoload": {
         "psr-4": {
@@ -31,15 +31,6 @@
         "psr-4": {
             "SpaethTech\\UCRM\\SDK\\Tests\\": "tests/"
         }
-    },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../*",
-            "options": {
-                "symlink": true
-            }
-        }
-    ]
+    }
 
 }

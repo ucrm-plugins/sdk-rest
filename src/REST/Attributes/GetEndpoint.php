@@ -5,7 +5,7 @@ namespace SpaethTech\UCRM\SDK\REST\Attributes;
 use Attribute;
 
 #[Attribute(Attribute::TARGET_CLASS)]
-class GetEndpoint extends RestEndpoint
+class GetEndpoint extends Endpoint
 {
 
     public function __construct(protected string $endpoint)

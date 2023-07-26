@@ -7,10 +7,8 @@ use Psr\Http\Message\ResponseInterface;
 use SpaethTech\UCRM\SDK\Annotations\AnnotationReader;
 use SpaethTech\UCRM\SDK\Collections\Collection;
 use SpaethTech\UCRM\SDK\JSON\JsonObject;
-use SpaethTech\UCRM\SDK\REST\
-{RestClient};
-use SpaethTech\UCRM\SDK\Support\
-{Arrays, Patterns, Strings};
+use SpaethTech\UCRM\SDK\REST\RestClient;
+use SpaethTech\UCRM\SDK\Support\{Arrays, Patterns, Strings};
 
 /**
  * Class EndpointObject
