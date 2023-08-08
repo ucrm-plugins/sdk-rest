@@ -8,8 +8,6 @@ namespace SpaethTech\UCRM\SDK\REST\Endpoints;
 //use SpaethTech\UCRM\SDK\REST\Annotations\EndpointAnnotation as Endpoint;
 
 //use UCRM\REST\Endpoints\Helpers\CountryHelper;
-use SpaethTech\UCRM\SDK\JSON\JsonObject;
-use SpaethTech\UCRM\SDK\REST\Attributes\Endpoint;
 
 /**
  * Class Country
